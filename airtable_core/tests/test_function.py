@@ -12,6 +12,7 @@ Docs: https://docs.pytest.org/en/latest/
 """
 
 import pytest
+
 from airtable_core import Example
 
 
