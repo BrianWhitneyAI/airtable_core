@@ -49,9 +49,9 @@ build: ## run tox / run tests and lint
 	tox
 
 gen-docs: ## generate Sphinx HTML documentation, including API docs
-	rm -f docs/emt_qc*.rst
+	rm -f docs/airtable_core*.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ emt_qc **/tests/
+	sphinx-apidoc -o docs/ airtable_core **/tests/
 	$(MAKE) -C docs html
 
 docs: ## generate Sphinx HTML documentation, including API docs, and serve to browser
